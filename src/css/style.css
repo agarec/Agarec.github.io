@@ -1,0 +1,253 @@
+body {
+	font-family: Arial, sans-serif;
+}
+
+nav {
+	widows: 100%;
+	height: 60px;
+	background: #344051;
+
+}
+
+.logo {
+	color: #fff;
+	font-size: 28px;
+	line-height: 60px;
+	padding-left: 388px;
+	float: left;
+
+}
+
+.menu {
+	float: left;
+	padding-left: 432px;
+
+}
+
+.menu li {
+	float: left;
+	line-height: 60px;
+	color: #fff;
+	margin-right: 40px;
+	font-size: 16px;
+	text-transform: uppercase;
+
+}
+
+.main {
+	width: 100%;
+	height: calc(100% - 60px);
+	background: url(../img/boy.png)90% 100%/auto 85% no-repeat, url(../img/bg.jpg) center/cover no-repeat;
+}
+
+.title__container {
+	float: left;
+	margin: 432px 0px 0px 404px;
+	color: #2c384a;
+	text-align: center;
+
+}
+
+.title__container h1 {
+	font-size: 60px;
+	font-weight: bold;
+
+}
+
+.title__container h4 {
+	margin-top: 40px;
+	font-size: 26px;
+	color: #79818d;
+
+}
+
+.title__container input {
+	height: 40px;
+	text-align: center;
+	border: 2px solid #6d7682;
+	background: none;
+	border-radius: 5px;
+	color: #6d7682;
+	font-size: 13px;
+	padding: 0px 16px;
+	margin: 50px 28px 0 14px;
+
+}
+
+.about_me {
+	width: 100%;
+	height: calc(100% - 200px);
+	background: url(../img/cherta2.png)950px 150px no-repeat, url(../img/boy2.png)900px 200px no-repeat;
+}
+
+.about_me h2 {
+	color: #2c384a;
+	padding-left: 900px;
+	padding-top: 100px;
+	white-space: nowrap;
+
+	font-size: 31px;
+	font-weight: bold;
+	text-transform: uppercase;
+
+}
+
+.first {
+
+	padding-left: 670px;
+	padding-top: 300px;
+	color: #6f707e;
+
+
+
+}
+
+.second {
+	;
+	padding-left: 670px;
+	padding-top: 50px;
+	color: #6f707e;
+
+}
+
+.item {
+
+	width: 155px;
+	height: 33px;
+	text-align: center;
+	border: 2px solid #6d7682;
+	background: none;
+	border-radius: 10px;
+	white-space: nowrap;
+	color: #6f707e;
+	padding: 8px 16px;
+	margin: 50px 950px 15px 900px;
+
+}
+
+.Down {
+	color: #6f707e;
+	font-weight: 500;
+
+}
+
+.what_can_i_do {
+	width: 100%;
+	height: calc(100% - 400px);
+	background: url(../img/certac.png)950px 150px no-repeat, url(../img/wallp.png) no-repeat;
+}
+
+
+
+.what_can_i_do h2 {
+	color: #2c384a;
+	padding-left: 900px;
+	padding-top: 100px;
+	white-space: nowrap;
+	font-size: 31px;
+	font-weight: bold;
+	text-transform: uppercase;
+
+}
+
+.what_can_i_do h3 {
+	color: #cf7600;
+	font-weight: bold;
+	line-height: 2;
+	padding-top: 20px;
+}
+
+.web-desige {
+
+
+	float: left;
+	width: 200px;
+	text-align: center;
+	margin: 100px 50px 100px 330px;
+	color: #2c384a;
+}
+
+.development {
+
+	float: left;
+	width: 200px;
+	text-align: center;
+	margin: 100px 50px 100px 100px;
+	color: #2c384a;
+}
+
+.ceo {
+	float: left;
+	width: 200px;
+	text-align: center;
+	margin: 100px 50px 100px 100px;
+	color: #2c384a;
+}
+
+.market {
+	float: left;
+	width: 200px;
+	text-align: center;
+	margin: 100px 0px 100px 100px;
+	color: #2c384a;
+}
+
+
+.cases {
+	width: 100%;
+	height: calc(100% - 100px);
+}
+
+.cases2 {
+	color: #2c384a;
+	padding-left: 950px;
+	padding-top: 100px;
+	white-space: nowrap;
+	font-size: 31px;
+
+}
+
+.cases2 h2 {
+	font-weight: bold;
+	text-transform: uppercase;
+
+
+}
+
+.cherta {
+	margin: 35px 45px 0px 10px;
+}
+
+.text {
+	color: #2c384a;
+text-align: center;
+	margin: 35px 250px 50px 640px;
+}
+.foto{
+	float: left;
+	width: 400px;
+	
+}
+
+.cases h3 {
+
+	float: left;
+	width: 400px;
+	text-align: center;
+	
+	color: #2c384a;
+}
+.client{
+	float: left;
+	width: 50px;
+	text-align: center;
+	margin: 350px 500px;
+	color: #2c384a;
+}
+.website{
+	float: left;
+	width: 50px;
+	text-align: center;
+	margin: 350px 500px;
+	color: #2c384a;
+}
