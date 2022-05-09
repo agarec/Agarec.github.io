@@ -22,6 +22,7 @@
  	margin-left: -35px;
  	text-align: center;
  	animation: preloader-rotate 2s infinite linear;
+	 
  }
 
  .preloader__item {
@@ -172,7 +173,7 @@
  }
 
  .menu li a {
- 	transition: all 0.1s;
+ 	 : all 0.1s;
  	color: white;
  	transform: scale (1);
  	display: inline-block;
@@ -516,26 +517,34 @@
  	padding-top: 15px;
  	color: #2c384a;
  }
-
- .http {
- margin: 50px 300px 0px 390px;
+.website{
+	margin: 50px 300px 0px 390px;
 	  display: block;
- 
+	
+}
+ .website a {
 
-  animation: bounce;
-  animation-duration: 2s;
- }
-
- button {
-
- 	display: inline-block;
+    display: inline-block;
  	background: #63b5ae;
  	color: #fff;
  	padding: 10px 15px;
  	text-decoration: inherit;
  	font-weight: bold;
  	border-radius: 3px;
- }
+	 
+    
+     
+}
+
+.website a:active {
+	
+	color: aqua;
+	background: red;
+	transform: scale(2);
+	transition: width 2s, height 2s, background-color 2s, transform 2s;
+	
+}
+
 
  .price {
  	width: auto;
@@ -873,6 +882,13 @@
  }
 
  .reset {
+	display: inline-block;
+ 	
+ 	
+ 	
+ 	text-decoration: inherit;
+ 	font-weight: bold;
+ 	border-radius: 3px;
 
  	text-align: center;
  	border: 3px solid #fff;
@@ -883,3 +899,11 @@
  	padding: 10px 16px;
 
  }
+.reset:active{
+	color: blue;
+	border-color: red;
+	background: red;
+	transition: width 2s, height 2s, background-color 2s, transform 2s;
+	transform: scale(1.5);
+	
+}
