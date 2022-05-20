@@ -393,13 +393,22 @@ main {
 }
 
 @media (max-width:991px) {
-	.about_me2 {
+	.about_me2  {
 		color: white;
 		font-size: 20px;
 		position: relative;
 		z-index: 3;
 	}
-
+	.text h6{
+		position: relative;
+		color: white;
+		z-index: 3;
+	}
+	.btn2 {
+		position: relative;
+		color: black;
+		z-index: 3;
+	}
 	.about_me::after {
 		content: "";
 		top: 0;
