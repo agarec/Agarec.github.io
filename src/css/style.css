@@ -696,6 +696,7 @@ main {
 	font-weight: bold;
 	color: #2c384a;
 	line-height: 2;
+	text-align: center;
 }
 
 .costs select {
@@ -741,8 +742,8 @@ main {
 	}
 
 	.costs {
-		height: 100%;
-		width: 80%
+		
+	    width: auto;
 	}
 
 
@@ -848,9 +849,9 @@ text-align: center;
 }
 
 .foter {
-	width: 100%;
+	width: auto;
 	height: 100%;
-	background: url(../img/fon2.png) no-repeat;
+	background: url(../img/fon2.png) center/cover no-repeat;
 }
 
 .foter2 {
@@ -911,8 +912,7 @@ text-align: center;
 
 @media (max-width:991px) {
 	.content2 h3{
-		font-size:
-		12px;
+		font-size:12px;
 	}
 
 	
