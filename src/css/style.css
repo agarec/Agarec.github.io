@@ -684,7 +684,7 @@ main {
 .costs {
 	width: auto;
 	height: auto;
-	text-align: left;
+	text-align: center;
 
 	animation: flash;
 	animation-duration: 3s;
@@ -719,7 +719,7 @@ main {
 .sale h3 {
 
 	font-size: 19px;
-	word-spacing: 770px;
+	word-spacing: 759px;;
 	font-weight: bold;
 	color: #2c384a;
 	line-height: 2;
